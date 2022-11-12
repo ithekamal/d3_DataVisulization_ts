@@ -1,0 +1,78 @@
+.svgBox{
+  margin-top: 10%;
+  margin-left: 5%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.473);
+}
+
+.App-header{
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  column-gap: 2%;
+}
+
+.sublabel{
+  font-size: 30px;
+}
+
+.delete{
+  color: rgba(197, 13, 13, 0);
+  display: none;
+}
+
+
+.chartArea:hover  .delete{
+display: block ;
+cursor: pointer;
+}
+
+#butnArea{
+  color: #8c50fc;
+  font-size: 20px;
+}
+
+.chartArea{
+display: flex;
+float: left;
+}
+
+#add-Kpi{
+cursor: pointer;
+}
+.charts{
+position: fixed;
+}
+
+
+
+/*Drop down Button */
+.search-container {
+width: 280px;
+display: flex;
+flex-direction: column;
+}
+
+.dropdown {
+background-color: white;
+display: flex;
+flex-direction: column;
+border: 1px solid gray;
+}
+
+.dropdown:empty {
+border: none;
+}
+
+.dropdown-row {
+cursor: pointer;
+text-align: start;
+margin: 2px 0;
+width: 220px;
+}
+
+input {
+width: 220px;
+}
+
+.search-inner {
+display: flex;
+}
